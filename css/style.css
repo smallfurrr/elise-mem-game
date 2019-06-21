@@ -1,0 +1,113 @@
+body {
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+}
+
+header {
+	background-color: #F15B31;
+	font-color: #FFFFFF;
+	padding: 10px 20px;
+}
+
+nav{
+	background-color: #00A6B3;
+	padding: 20px 0;
+}
+
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+a {
+	font-family: Raleway;
+	color:#FFFFFF;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 15px;
+	margin: 0 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration-line: underline;
+	text-decoration-style: double;
+}
+
+h1 {
+	font-family: Raleway;
+	color: #0D2C40;
+	letter-spacing: 3px;
+	font-weight: 400;
+	font-size: 55px;
+	text-transform: uppercase;
+	margin: 15px 0 5px 0;
+}
+
+h2 {
+	font-family: Raleway;
+	color: #F15B31;
+	letter-spacing: 1px;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+h5 {
+	font-family: Raleway;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 0px;
+}
+
+p {
+	font-family: "Droid Serif";
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+img {
+	margin: 40px 8px;
+}
+
+.name, .heart {
+	color: #F15B31;
+	font-weight: 700;
+}
+
+.copyright, .message {
+	text-transform: uppercase;
+	padding: 0 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.clearfix{
+		background-color: #0D2C40;
+		margin-bottom: 0;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+/* make footer "stick" to bottom?*/
