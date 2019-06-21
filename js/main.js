@@ -1,21 +1,20 @@
-const cardsArray = ['queen', 'queen', 'king', 'king'];
+const cards = ['Queen', 'Queen', 'King', 'King'];
 
 let cardsInPlay = [];
 
-let cardOne = cardsArray[0];
-console.log(`User flipped over ${cardOne}!`)
-
-let cardTwo = cardsArray[1];
-console.log(`User flipped over ${cardTwo}!`)
-
-cardsInPlay.push(cardOne, cardTwo);
-
-if (cardsInPlay.length === 2) {
-  if (cardOne === cardTwo) {
-    alert('You found a match!');
-  } else {
-    alert('Sorry, try again.');
-  }
-} else {
-    console.log('Insufficient cards picked')
+function checkForMatch() {
+    if (cardsInPlay[0] === cardsInPlay[1]) {
+        console.log("You found a match!");
+    } else {
+        console.log("Sorry, try again.");
+    }
 }
+
+function flipCard(cardID) {
+    console.log(`${cards[cardID]} was flipped!`);
+    cardsInPlay.push(cards[cardID]);
+    checkForMatch();
+}
+
+flipCard(0);
+flipCard(2);
