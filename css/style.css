@@ -70,8 +70,13 @@ p {
 	font-size: 18px;
 }
 
+#game-board {
+	background-color: #FFFFFF;
+}
+
 img {
 	margin: 40px 8px;
+	box-shadow: 6px 8px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .name, .heart {
